@@ -10,7 +10,7 @@ public class Bai3 {
 
     public static void main(String[] args) {
         try {
-            List<Integer> numbers = readNumbersFromFile("C:\\Users\\maytinh\\Downloads\\so.txt");
+            List<Integer> numbers = readNumbersFromFile("C:\\Users\\maytinh\\Documents\\NetBeansProjects\\intern\\so.txt");
             int[] array = numbers.stream().mapToInt(i -> i).toArray();
             
             quickSort(array, 0, array.length - 1);

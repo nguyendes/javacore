@@ -22,9 +22,6 @@ public class Testjdbc {
         Connection cnt= null;
         PreparedStatement pre= null;
         ResultSet rss= null;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of students: ");
-        int n = Integer.parseInt(sc.nextLine());
         try{
             cnt= dcm.getConnection();
             String sql="""
@@ -40,4 +37,9 @@ public class Testjdbc {
             e.printStackTrace();
     }
     }
+
+
+
+
+    
 }
