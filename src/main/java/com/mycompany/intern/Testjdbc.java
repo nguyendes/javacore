@@ -18,7 +18,7 @@ public class Testjdbc {
 
     public static void main(String[] args) {
   
-        DatabaseConnectionManager dcm= new DatabaseConnectionManager("Nhanvien","sa","1410");
+        DatabaseConnectionManager dcm= new DatabaseConnectionManager("NhanVien","sa","1410");
         Connection cnt= null;
         PreparedStatement pre= null;
         ResultSet rss= null;

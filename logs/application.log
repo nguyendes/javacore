@@ -1,0 +1,6 @@
+2024-06-25 10:42:46 DEBUG test:23 - Log4j được cấu hình thành công!
+2024-06-25 10:42:46 DEBUG test:27 - Đây là thông báo debug
+2024-06-25 10:42:46 INFO  test:28 - Đây là thông báo info
+2024-06-25 10:42:46 WARN  test:29 - Đây là thông báo warning
+2024-06-25 10:42:46 ERROR test:30 - Đây là thông báo error
+2024-06-25 10:42:46 FATAL test:31 - Đây là thông báo fatal
